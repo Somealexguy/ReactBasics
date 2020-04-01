@@ -1,0 +1,25 @@
+
+
+.main-container{
+width: var(--mainSize);
+height: var(--mainSize);
+background-color: whitesmoke;
+padding: 10px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.red{
+  background-color: red;
+}
+.blue{
+  background-color: blue;
+  color:whitesmoke;
+}
+.article-card{
+  width: 150px;
+  max-height: 300px;
+  margin:10px;
+  border: 1px solid black;
+}
