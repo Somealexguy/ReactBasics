@@ -1,5 +1,5 @@
 import React from "react";
-import Main from "../elements/main";
+import Main from "../atoms/main";
 
 function MainView(props) {
   const { children } = props;

@@ -17,3 +17,9 @@ justify-content: center;
   background-color: blue;
   color:whitesmoke;
 }
+.article-card{
+  width: 150px;
+  max-height: 300px;
+  margin:10px;
+  border: 1px solid black;
+}
