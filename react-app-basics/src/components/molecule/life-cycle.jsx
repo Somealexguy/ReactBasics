@@ -1,6 +1,6 @@
 import React from "react";
-import LifeCycleClass from "../atoms/class-life-cycle";
-import LifeCycleFunction from "../atoms/functional-life-cycle";
+import LifeCycleClass from "./class-life-cycle-clock";
+import LifeCycleFunction from "./functional-life-cycle-clock";
 
 function LifeCycle() {
   return (

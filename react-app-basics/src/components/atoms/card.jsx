@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 function Card(props) {
   const { element } = props;
   return (
-    <article className="article-card">
+    <article className="article-card fadeIn">
       <header>Header: {element.header}</header>
       <section>Body: {element.body}</section>
     </article>

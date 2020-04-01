@@ -19,7 +19,14 @@ justify-content: center;
 }
 .article-card{
   width: 150px;
-  max-height: 300px;
   margin:10px;
+  height: 200px;
+  padding: 10px;
   border: 1px solid black;
+  animation: fadeIn 2s ease-in;
+}
+
+@keyframes fadeIn {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
 }
