@@ -26,6 +26,14 @@ justify-content: center;
   animation: fadeIn 2s ease-in;
 }
 
+.flex-column{
+display: flex;
+flex-direction: column;
+}
+form.flex-column > *{
+  padding: 10px;
+  }
+
 @keyframes fadeIn {
   0%   { opacity: 0; }
   100% { opacity: 1; }
