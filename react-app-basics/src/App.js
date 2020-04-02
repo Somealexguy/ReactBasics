@@ -9,6 +9,7 @@ import LifeCycle from "./components/molecule/life-cycle";
 import Article from "./components/molecule/article";
 import FunctionalLifeCycleClock from "./components/molecule/functional-life-cycle-clock";
 import ClassLifeCycleClock from "./components/molecule/class-life-cycle-clock";
+import RegisterForm from "./components/molecule/register-form";
 
 const articles = [
   {
@@ -26,7 +27,7 @@ const articles = [
 ];
 function App() {
   const [visible, setVisible] = useState(true);
-  return <MainView><JsxVsJs></JsxVsJs></MainView>;
+  // return <MainView><JsxVsJs></JsxVsJs></MainView>;
   // return <MainView><LifeCycle></LifeCycle></MainView>;
   // return (
   //   <MainView>
@@ -50,6 +51,7 @@ function App() {
   //     </MainView>
   //   </React.Fragment>
   // );
+    return <MainView><RegisterForm></RegisterForm></MainView>;
 }
 
 export default App;
