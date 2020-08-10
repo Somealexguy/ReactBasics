@@ -6,7 +6,7 @@ import TextArea from "../atoms/forms/textarea";
 
 function RegisterForm() {
   function handleSubmit(event) {
-    //this is done to not reload page, send request to server
+    //this is done to not reload page, send request to server, via
     event.preventDefault();
   }
 

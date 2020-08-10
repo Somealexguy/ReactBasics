@@ -27,7 +27,7 @@ const articles = [
 ];
 function App() {
   const [visible, setVisible] = useState(true);
-  // return <MainView><JsxVsJs></JsxVsJs></MainView>;
+  return <MainView><JsxVsJs></JsxVsJs></MainView>;
   // return <MainView><LifeCycle></LifeCycle></MainView>;
   // return (
   //   <MainView>
@@ -51,7 +51,7 @@ function App() {
   //     </MainView>
   //   </React.Fragment>
   // );
-    return <MainView><RegisterForm></RegisterForm></MainView>;
+    // return <MainView><RegisterForm></RegisterForm></MainView>;
 }
 
 export default App;
